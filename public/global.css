@@ -1,0 +1,54 @@
+p {
+	margin: 0px;
+	/* font-size: 30px; */
+}
+h3 {
+	margin: 20px;
+	margin-top: 2rem;
+}
+h4 {
+	margin-bottom: 0.6rem;
+}
+a {
+	/* font-size: 30px; */
+}
+em {
+	/* font-size: 30px; */
+}
+ul {
+	margin-top: 0.1rem;
+}
+ol {
+	margin-top: 0.1rem;
+}
+
+#home {
+	display: block;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	/* font-size: 50px; */
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+table {
+	 /* style="min-width:1000px;" */
+}
+td {
+	/* font-size: 50px; */
+	text-align: left;
+	/* margin: 0px; */
+	max-width: 100px	;
+	min-width: 100px;
+}
+
+#interface {
+	display: flex;
+	flex-flow: column;
+	width: 500px;
+	align-self: center;
+}

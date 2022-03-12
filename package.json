@@ -1,0 +1,16 @@
+{
+  "name": "sync",
+  "version": "0.0.1",
+  "scripts": {
+    "server": "node server.js",
+    "test": "jasmine"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "jsfft": "^0.0.4",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "jasmine": "^4.0.2"
+  }
+}
