@@ -4,22 +4,21 @@
    Convert your phones into a multi-speaker setup.
    Ideal to improvise a sound system at a party.*
 
-| ❗ This is pre-alpha code, it is a proof of concept that "works on my device". |
+| ❗ This is pre-alpha code, it is a proof of concept that "works on my device".. |
 |--------------------------------------------------------------------------------|
-  
-#### Installation and running
-Default installation technique with any JavaScript package manager that understands the default `package.json` format.
-E.g. with [npm](https://docs.npmjs.com/cli/v8/commands/npm-install) with `npm install`, or [yarn](https://yarnpkg.com/cli/install) with `yarn install`.
 
-Running is done with `node server.js`, and will host a minimal [Express](http://expressjs.com/) web-server on port 3000.
+### Goal
+The goal of this **proof of concept** is to **guarantee** synchronous audio playback for the current Web Audio API standard **without** relying on support of [outputLatency](https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/outputLatency) or [baseLatency](https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/baseLatency).
 
-#### Demo 
+#### Demo
 Test website can be found at [https://sync.jervtub.com](https://sync.jervtub.com).
 
 #### Documentation
 For further reading, some information can be found here
-* [Concept](docs/concept.md)
+* [Motivation](docs/motivation.md)
+* [Design](docs/design.md)
 * [Implementation](docs/implementation.md)
-* [Prototype](docs/prototype.md)
+* [Files](docs/files.md)
+* [Installation](docs/installation.md)
 * [Future work](docs/future-work.md)
 * [Credits](docs/credits.md)

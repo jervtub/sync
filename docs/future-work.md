@@ -1,10 +1,15 @@
 
-# Advanced audio input/output syncing
-  Automatically log/improve towards ideal(minimal) signal strength/length
-    [ ] round trip latency
-    [ ] confidence about match
-    [ ] signal length
-    [ ] input signal strength
-    [ ] output signal strength
-  * Decudes SNR based on confident match
-  * Using gpu
+## Towards Web-Audio Conf 2022
+
+- [ ] Support multiple sessions
+- [ ] Test-cases
+  - [x] Math functions
+  - [x] RingBuffer
+  - [x] AudioProcessor
+  - [ ] Correlation
+  - [ ] Session management
+  - [ ] ...
+- [ ] Allow debugging on-site
+  - [ ] Provide visual feedback on errors on mobile devices
+- [ ] Audio input timestamps from `onaudioprocess`-events
+  - [ ] Scheduling relates to `performance.now`
