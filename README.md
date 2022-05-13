@@ -17,8 +17,6 @@ Test website can be found at [https://sync.jervtub.com](https://sync.jervtub.com
 For further reading, some information can be found here
 * [Motivation](docs/motivation.md)
 * [Design](docs/design.md)
-* [Implementation](docs/implementation.md)
-* [Files](docs/files.md)
 * [Installation](docs/installation.md)
 * [Future work](docs/future-work.md)
 * [Credits](docs/credits.md)
